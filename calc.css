@@ -14,10 +14,10 @@ div {
   background-color: teal;
 }
 #display-text {
-  text-shadow: 0px 0px 7px #FFF;
+  text-shadow: 0px 0px 5px #FFF;
   text-align: right;
   font-family: orbitron;
-  font-size: 35px;
+  font-size: 30px;
   margin: auto;
   overflow: hidden;
 }
@@ -26,9 +26,16 @@ div {
   font-family: Lucida Console;
   text-align: center;
 }
-row {
 
+.button:hover {
+  text-shadow: 0px 0px 10px blue, 0 0 10px white;
+  cursor: pointer;
 }
+
+.button:active {
+  background-color: aqua;
+}
+
 .button {
   display: inline-block;
   padding: 10px;
