@@ -1,3 +1,2 @@
 # Calculator
-A web-based calculator made for FreeCodeCamp.
-*This is a work-in-progress
+A simple web-based calculator made for FreeCodeCamp.
